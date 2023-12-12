@@ -1,0 +1,16 @@
+.Projects {
+	display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	& > div {
+        width: 180px;
+		border-radius: 1rem;
+		padding: 1rem;
+		background-color: color-mix(in srgb, var(--accent-1) 3%, transparent);
+        & img {
+            width: 100%;
+        }
+	}
+}

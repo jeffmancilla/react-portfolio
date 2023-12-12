@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
 	--dark: hsl(0, 0%, 10%);
@@ -19,7 +19,7 @@
 html {
 	color: var(--text);
 	background: var(--background);
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 a {
 	color: color-mix(in lch, var(--text) 50%, var(--accent-1) 50%);
@@ -32,10 +32,10 @@ a {
 }
 h1,
 h2,
-h3,
-p {
+h3 {
 	margin: 0;
 	margin-bottom: 1rem;
+	font-weight: 800;
 }
 section {
 	margin-bottom: 1rem;

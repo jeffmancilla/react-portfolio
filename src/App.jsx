@@ -14,11 +14,13 @@ function App() {
 	return (
 		<div className="App">
 			<Header />
+			<main>
 				<Routes>
 					<Route exact path="/" element={<Home />} />
 					<Route path="/projects" element={<Projects />} />
 					<Route path="/about" element={<About />} />
 				</Routes>
+			</main>
 			<Footer />
 		</div>
 	)

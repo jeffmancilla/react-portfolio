@@ -1,14 +1,23 @@
 [
 	{
-		"name": "project1",
-		"live": "https://app.herokuapp.com/whatever",
-		"git": "http://www.github.com/username/reponame",
-		"image": "http://www.imgur.com/pictureofproject.png"
+		"name": "Mid Typing",
+		"description": "Typing game with a Souls-like twist",
+		"image": "https://private-user-images.githubusercontent.com/54294370/280159050-eeabb15f-cafe-4e77-aacb-83d47cb8c163.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNDU4MTgsIm5iZiI6MTcwMjM0NTUxOCwicGF0aCI6Ii81NDI5NDM3MC8yODAxNTkwNTAtZWVhYmIxNWYtY2FmZS00ZTc3LWFhY2ItODNkNDdjYjhjMTYzLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAxNDUxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmYjY3ZTcwODQ3YWYxYjYzYjczNDg4Y2ExMTY1YWQzMDkyYTMyMGNhNTNhZmViOWUxOWZlMTA4NGYyMWE3MTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.dpSIrXvjXzZE-lpTybxfYYEhVyd0PasvdEBhAvJ657Y",
+		"live": "https://jeffmancilla.github.io/mid-typing-game",
+		"git": "http://www.github.com/jeffmancilla/mid-typing-game"
 	},
 	{
-		"name": "project2",
+		"name": "Blue Card Practice Tool",
+		"description": "Test",
+		"image": "https://private-user-images.githubusercontent.com/54294370/280159050-eeabb15f-cafe-4e77-aacb-83d47cb8c163.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNDU4MTgsIm5iZiI6MTcwMjM0NTUxOCwicGF0aCI6Ii81NDI5NDM3MC8yODAxNTkwNTAtZWVhYmIxNWYtY2FmZS00ZTc3LWFhY2ItODNkNDdjYjhjMTYzLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAxNDUxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmYjY3ZTcwODQ3YWYxYjYzYjczNDg4Y2ExMTY1YWQzMDkyYTMyMGNhNTNhZmViOWUxOWZlMTA4NGYyMWE3MTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.dpSIrXvjXzZE-lpTybxfYYEhVyd0PasvdEBhAvJ657Y",
+		"live": "https://jeffmancilla.github.io/mid-typing-game",
+		"git": "http://www.github.com/jeffmancilla/mid-typing-game"
+	},
+	{
+		"name": "Tender",
+		"description": "description",
+		"image": "http://www.imgur.com/pictureofproject.png",
 		"live": "https://app.netlify.app/whatever",
-		"git": "http://www.github.com/username/reponame",
-		"image": "http://www.imgur.com/pictureofproject.png"
+		"git": "http://www.github.com/username/reponame"
 	}
 ]

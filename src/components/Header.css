@@ -1,0 +1,33 @@
+.Header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+    & div:last-of-type {
+        display: flex;
+        gap: 2rem;
+        justify-content: flex-end;
+    }
+
+    &:first-child > a {
+        opacity: 1;
+        font-weight: 800;
+    }
+
+    & a {
+        padding: 0.25rem;
+        text-decoration: none;
+        color: var(--text);
+        line-height: 1rem;
+        opacity: 0.8;
+
+        &:hover {
+            opacity: 1;
+            font-weight: 600;
+        }
+        & :visited {
+            color: var(--text);
+        }
+    }
+}
