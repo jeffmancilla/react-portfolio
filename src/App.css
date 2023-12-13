@@ -1,0 +1,21 @@
+.App {
+	margin: auto;
+	width: min(90vw, 70ch);
+	height: 100dvh;
+
+	display: flex;
+	flex-direction: column;
+
+	& > :is(header, main, footer) {
+		padding: 1rem;
+	}
+	& header {
+		padding-bottom: 0;
+	}
+	& main {
+		flex-grow: 1;
+	}
+	& footer {
+		padding-top: 0;
+	}
+}

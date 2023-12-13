@@ -24,7 +24,6 @@
 
         &:hover {
             opacity: 1;
-            font-weight: 600;
         }
         & :visited {
             color: var(--text);

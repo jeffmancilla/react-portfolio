@@ -16,7 +16,7 @@ const Header = () => {
 	return (
 		<header className="Header">
 			<nav>
-				<Link to="/">JeffM.</Link>
+				<Link to="/">JeffM .</Link>
 				<div>
 					{navItems.map((item, idx) => {
 						return (
