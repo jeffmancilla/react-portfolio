@@ -1,6 +1,7 @@
 .App {
 	margin: auto;
 	width: min(90vw, 75ch);
+	height: 98dvh;
 
 	display: flex;
 	flex-direction: column;
@@ -18,3 +19,4 @@
 		padding-top: 0;
 	}
 }
+

@@ -11,7 +11,7 @@
 .project {
 	display: flex;
 	position: relative;
-	background: color-mix(in srgb, currentcolor 5%, transparent);
+	background: color-mix(in srgb, var(--background) 5%, transparent);
 	width: 18rem;
 	height: 24rem;
 	box-shadow: .1rem .1rem .5rem .05rem hsla(0,0%,0%,.25);
@@ -20,7 +20,7 @@
 	}
 
 	& > div:first-of-type {
-		padding: 2rem 2.5rem;
+		padding: 3rem 3rem;
 		z-index: 2;
 		display: flex;
 		flex-direction: column;
@@ -33,7 +33,13 @@
 		}
 		& h3 {
 			margin: 0;
+			font-size: 1.5rem;
 			font-weight: 800;
+		}
+		& p {
+			font-size: 1.33rem;
+			font-weight: 300;
+
 		}
 	}
 
@@ -42,8 +48,8 @@
 		height: 100%;
 		background-size: cover;
 		background-position: center;
-		filter: none;
-		opacity: .25;
+		/* filter: grayscale(); */
+		opacity: .1;
 	}
 	&:hover {
 		& > div:first-of-type {
@@ -51,6 +57,7 @@
 		}
 		& > div:last-of-type {
 			opacity: .5;
+			filter: none;
 		}
 	}
 }
