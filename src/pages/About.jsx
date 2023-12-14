@@ -23,7 +23,7 @@ const About = () => {
 	const loaded = () => (
 		<div>
 			<h2>{about.name}</h2>
-			<a href={`"mailto:${about.email}"`}>{about.email}</a>
+			<h3>{about.email}</h3>
 			<p>{about.bio}</p>
 		</div>
 	)

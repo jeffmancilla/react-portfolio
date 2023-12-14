@@ -1,30 +1,15 @@
 import { Link } from 'react-router-dom'
 import './Header.css'
 
-const navItems = [
-	{
-		href: '/about',
-		innerHTML: 'About',
-	},
-	{
-		href: '/projects',
-		innerHTML: 'Projects',
-	},
-]
-
 const Header = () => {
 	return (
 		<header className="Header">
 			<nav>
 				<Link to="/">JeffM .</Link>
 				<div>
-					{navItems.map((item, idx) => {
-						return (
-							<Link to={item.href} key={idx}>
-								{item.innerHTML}
-							</Link>
-						)
-					})}
+					<Link to="/projects">Projects</Link>
+					<a href="https://linkedin.com/in/jeffmancilla">LinkedIn</a>
+					<a href="https://github.com/jeffmancilla">GitHub</a>
 				</div>
 			</nav>
 		</header>

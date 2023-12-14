@@ -2,8 +2,7 @@
 	--dark: hsl(0, 0%, 12%);
 	--light: hsl(0, 0%, 97%);
 	/* --accent-1: hsl(240, 100%, 82%); */
-	--accent-1: hsl(203, 46%, 67%);
-	--accent-2: hsl(0, 75%, 50%);
+	--accent-1: hsl(203, 33%, 50%);
 
 	--text: var(--dark);
 	--background: var(--light);

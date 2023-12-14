@@ -27,19 +27,13 @@
 }
 .hero-image {
 	z-index: -1;
-	/* width: min(240px, 100%); */
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
 	opacity: 0.25;
-	/* background-image: url('https://jeffmancilla.github.io/7rv4s3_480.jpg'); */
 }
 .cta-buttons {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
-}
-
-.parallax {
-	
 }
