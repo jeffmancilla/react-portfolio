@@ -1,7 +1,6 @@
 .App {
 	margin: auto;
-	width: min(90vw, 70ch);
-	height: 100dvh;
+	width: min(90vw, 75ch);
 
 	display: flex;
 	flex-direction: column;

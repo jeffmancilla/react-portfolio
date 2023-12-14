@@ -1,14 +1,41 @@
 .Home {
-    & .home-text {
-        width: min(40ch, 100%);
-    }
-    
-    & .home-image {
-        z-index: -10;
-        width: min(240px, 100%);
-        height: 240px;
-        float: right;   
-        opacity: 0.25;
-        background-image: url('https://jeffmancilla.github.io/7rv4s3_480.jpg');
-    }
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.hero {
+	display: flex;
+	position: relative;
+	& > :nth-child(1) + :nth-child(2) {
+		position: absolute;
+	}
+}
+
+.hero-text {
+	width: min(40ch, 100%);
+	& > h1 {
+        margin: 1rem 0;
+        & > span {
+            color: var(--accent-1);
+            background: linear-gradient(69deg, var(--accent-1), color-mix(in srgb, currentColor 50%, white));
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+	}
+}
+.hero-image {
+	z-index: -1;
+	/* width: min(240px, 100%); */
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0.25;
+	/* background-image: url('https://jeffmancilla.github.io/7rv4s3_480.jpg'); */
+}
+.cta-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
 }

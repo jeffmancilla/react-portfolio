@@ -1,5 +1,6 @@
 .Header > nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
@@ -16,7 +17,7 @@
     }
 
     & a {
-        padding: 0.25rem;
+        padding: 1rem 0;
         text-decoration: none;
         color: var(--text);
         line-height: 1rem;

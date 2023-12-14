@@ -3,14 +3,54 @@
     justify-content: center;
 	flex-wrap: wrap;
 	gap: 1rem;
+	& * {
+		border-radius: .33rem;
+	}
+}
 
-	& > div {
-        width: 180px;
-		border-radius: 1rem;
-		padding: 1rem;
-		background-color: color-mix(in srgb, var(--accent-1) 3%, transparent);
-        & img {
-            width: 100%;
-        }
+.project {
+	display: flex;
+	position: relative;
+	background: color-mix(in srgb, currentcolor 5%, transparent);
+	width: 18rem;
+	height: 24rem;
+	box-shadow: .1rem .1rem .5rem .05rem hsla(0,0%,0%,.25);
+	& > * + * {
+		position: absolute;		
+	}
+
+	& > div:first-of-type {
+		padding: 2rem 2.5rem;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		& > div {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+			flex-grow: 1;
+		}
+		& h3 {
+			margin: 0;
+			font-weight: 800;
+		}
+	}
+
+	& > div:last-of-type {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		filter: none;
+		opacity: .25;
+	}
+	&:hover {
+		& > div:first-of-type {
+			/* background: radial-gradient(128rem circle at 4rem 4rem, hsla(210,50%,75%,0.1), transparent 20%); */
+		}
+		& > div:last-of-type {
+			opacity: .5;
+		}
 	}
 }

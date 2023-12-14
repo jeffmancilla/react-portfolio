@@ -23,23 +23,29 @@ const Projects = () => {
 
 	// define a function that will return the JSX needed once we get the data
 	const loaded = () => {
-		return projects.map((project, idx) => (
-			<div key={idx}>
-				<div>
-					<img src={project.image} />
+		return projects.map((project, idx) => {
+			project.image = `url(${project.image})`
+			return (
+				<div className="project" key={idx}>
+					<div>
+						<h3>{project.name}</h3>
+						<p>{project.description}</p>
+						<div>
+							<a href={project.live}>
+								<button className="primary">live site</button>
+							</a>
+							<a href={project.git}>
+								<button>Github</button>
+							</a>
+						</div>
+					</div>
+					<div
+						style={{ backgroundImage: project.image }}
+						className="project-image"
+					></div>
 				</div>
-				<div>
-					<h3>{project.name}</h3>
-					<p>{project.description}</p>
-					<a href={project.git}>
-						<button>Github</button>
-					</a>
-					<a href={project.live}>
-						<button>live site</button>
-					</a>
-				</div>
-			</div>
-		))
+			)
+		})
 	}
 
 	return (
