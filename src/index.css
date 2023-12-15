@@ -47,7 +47,8 @@ button {
 	display: flex;
 	place-items: center;
 	gap: .5rem;
-	font-size: 1rem;
+	font-size: .8rem;
+	font-weight: 600;
 	color: var(--btn-color);
 	background-color: color-mix(in srgb, currentColor 5%, transparent);
 	border: 1px solid currentColor;

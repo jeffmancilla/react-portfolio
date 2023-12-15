@@ -4,14 +4,11 @@
 	align-items: center;
 	gap: 2rem;
 }
-.typewriter {
-	width: 320px;
-}
 .hero-image {
 	opacity: 0.8;
 	width: 10rem;
 	border-radius: 50%;
-	box-shadow: 0 0 4px 1px black;
+	box-shadow: 0 0 1rem black;
 }
 .hero {
 	display: flex;
@@ -24,8 +21,10 @@
 			color: var(--accent-1);
 			background: linear-gradient(
 				69deg,
-				var(--accent-1),
-				color-mix(in srgb, currentColor 66%, transparent)
+				color-mix(in srgb, currentColor 50%, transparent),
+				/* nice */ currentColor 25%,
+				/* nice */ currentColor 75%,
+				color-mix(in srgb, currentColor 50%, transparent) 100%
 			);
 			background-clip: text;
 			-webkit-background-clip: text;
@@ -34,9 +33,11 @@
 	}
 }
 
-.skill-list {
+.skill-list > svg {
 	opacity: 0.66;
-	width: 66vw;
+	&:hover {
+		opacity: 1;
+	}
 }
 .skill-list,
 .cta-buttons {
