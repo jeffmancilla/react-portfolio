@@ -28,7 +28,7 @@ const Projects = () => {
 			return (
 				<div className="project" key={idx}>
 					<div>
-						<h3>{project.name}</h3>
+						<h2>{project.name}</h2>
 						<p>{project.description}</p>
 						<div>
 						</div>
@@ -67,7 +67,7 @@ const Projects = () => {
 					</div>
 					<div
 						style={{ backgroundImage: project.image }}
-						className="project-image"
+						className="project-image" id={`a${idx}`}
 					></div>
 				</div>
 			)
@@ -76,7 +76,7 @@ const Projects = () => {
 
 	return (
 		<>
-			<h2>Projects</h2>
+			<h1>Projects</h1>
 			<div className="Projects">{projects ? loaded() : 'Loading'}</div>
 		</>
 	)

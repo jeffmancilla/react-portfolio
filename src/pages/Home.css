@@ -1,22 +1,24 @@
 .Home {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 2rem;
+}
+.hero-image {
+	opacity: .8;
+	width: 12rem;
+	border-radius: 50%;
+	box-shadow: .05rem .05rem .2rem .05rem black;
 }
 .hero {
 	display: flex;
-	position: relative;
-	& > :nth-child(1) + :nth-child(2) {
-		position: absolute;
-	}
+	text-align: center;
 }
 
 .hero-text {
-	width: min(40ch, 100%);
 	& > h1 {
-        margin: 1rem 0;
-        & > span {
-            color: var(--accent-1);
+		& > span {
+			color: var(--accent-1);
             background: linear-gradient(69deg, var(--accent-1), color-mix(in srgb, currentColor 50%, white));
             background-clip: text;
             -webkit-background-clip: text;
@@ -25,8 +27,12 @@
         }
 	}
 }
-.hero-image {
-	width: 16rem;
+
+.skill-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem; 
 }
 .cta-buttons {
 	display: flex;

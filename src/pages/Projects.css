@@ -2,7 +2,7 @@
 	display: flex;
     justify-content: center;
 	flex-wrap: wrap;
-	gap: 1rem;
+	gap: 3rem;
 	& * {
 		border-radius: .33rem;
 	}
@@ -24,22 +24,15 @@
 		z-index: 2;
 		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
 		place-items: center;
 		width: 100%;
 		& > div {
-			flex-grow: 1;
 			display: flex;
-			align-items: flex-end;
 			gap: 1rem;
 		}
-		& h3 {
-			margin: 0;
-			font-size: 1.5rem;
-			font-weight: 800;
-		}
 		& p {
-			margin-top: 4rem;
-			font-size: 1.25rem;
+			font-size: 1.33rem;
 			font-weight: 300;
 			text-align: center;
 
@@ -51,16 +44,17 @@
 		height: 100%;
 		background-size: cover;
 		background-position: center;
-		/* filter: grayscale(); */
 		opacity: .1;
 	}
 	&:hover {
-		& > div:first-of-type {
-			/* background: radial-gradient(128rem circle at 4rem 4rem, hsla(210,50%,75%,0.1), transparent 20%); */
-		}
+		filter: drop-shadow();
 		& > div:last-of-type {
-			opacity: .5;
+			opacity: .33;
 			filter: none;
+			&#a0 {
+				opacity: .5;
+				filter: brightness(2)
+			}
 		}
 	}
 }
