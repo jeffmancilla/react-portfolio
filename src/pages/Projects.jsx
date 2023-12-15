@@ -77,7 +77,7 @@ const Projects = () => {
 	return (
 		<>
 			<h1>Projects</h1>
-			<div className="Projects">{projects ? loaded() : 'Loading'}</div>
+			<div className="Projects">{projects ? loaded() : <p>loading...</p>}</div>
 		</>
 	)
 }

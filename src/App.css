@@ -1,22 +1,29 @@
 .App {
 	margin: auto;
 	width: min(90vw, 75ch);
-	height: 98dvh;
+	height: 100svh;
 
 	display: flex;
 	flex-direction: column;
 
-	& > :is(header, main, footer) {
-		padding: 1rem;
-	}
-	& header {
-		padding-bottom: 0;
-	}
 	& main {
 		flex-grow: 1;
 	}
-	& footer {
-		padding-top: 0;
-	}
 }
 
+.Home,
+.Projects {
+	animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

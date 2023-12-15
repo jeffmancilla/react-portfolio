@@ -1,7 +1,8 @@
+
+
 :root {
 	--dark: hsl(0, 0%, 12%);
 	--light: hsl(0, 0%, 97%);
-	/* --accent-1: hsl(240, 100%, 82%); */
 	--accent-1: hsl(203, 33%, 50%);
 
 	--text: var(--dark);
@@ -17,46 +18,47 @@
 * {
 	box-sizing: border-box;
 }
+
 html {
 	color: var(--text);
 	background: var(--background);
-	font-family: system-ui, sans-serif;
+	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;	font-weight: normal;
 	margin: 0;
+	padding: 0;
 }
 
 h1,
 h2,
 h3 {
 	font-weight: 600;
+	margin: 0;
+	text-align: center;
 }
 
 h1 {
 	font-size: 3rem;
-	margin-block: 1.5rem;
-	text-align: center;
 }
 h2 {
-	margin: 0;
 	font-size: 2rem;
 }
 
 button {
+	--btn-color: var(--text); 
 	display: flex;
 	place-items: center;
 	gap: .5rem;
-	font-size: 0.825rem;
-	font-weight: 600;
-	background-color: color-mix(in srgb, currentColor 10%, transparent);
-	color: var(--accent-1);
+	font-size: 1rem;
+	color: var(--btn-color);
+	background-color: color-mix(in srgb, currentColor 5%, transparent);
 	border: 1px solid currentColor;
 	border-radius: 0.25rem;
 	box-shadow: 0 0 0.1rem 0.1rem color-mix(in srgb, black 10%, transparent);
 	opacity: 1;
 	padding: 0.5rem;
 	&.primary {
-		background-color: var(--accent-1);
+		background-color: var(--btn-color);
 		color: var(--background);
-		border-color: var(--accent-1);
+		border-color: var(--btn-color);
 	}
 	&:hover {
 		box-shadow: 0 0 1px 2px color-mix(in srgb, var(--text) 33%, transparent);
