@@ -2,7 +2,7 @@
 I'm Jeff Mancilla - Software Engineer, ServiceNow Developer and Technologist. I love to build things and learn new skills. I have over a decade of IT experience as a ServiceNow developer and IT Service Management lead in the higher education space. 
 
 ## Portfolio Link
-[https://leafy-pie-c1eb3a.netlify.app](https://https://leafy-pie-c1eb3a.netlify.app)
+[https://leafy-pie-c1eb3a.netlify.app](https://leafy-pie-c1eb3a.netlify.app)
 
 ## Technologies used
 - React
