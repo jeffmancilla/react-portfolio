@@ -1,27 +1,28 @@
 .Header > nav {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-block: 1rem;
+	display: flex;
+	gap: 1.5rem;
+	padding-block: 1rem;
+    justify-content: space-between;
+    align-items: stretch;
+
+	& a {
+		text-decoration: none;
+		color: var(--text);
+		opacity: 0.8;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
     
-    & a, a:visited {
-        text-decoration: none;
-        color: var(--text);
-        opacity: 0.8;
-        
-        &:hover {
-            opacity: 1;
-        }
-    }
-    
-        & > :first-child {
-            opacity: 1;
-            font-weight: 800;
-        }
-        & > :last-child {
-            flex-grow: 1;
-            display: flex;
-            gap: 1.5rem;
-            justify-content: flex-end;
-        }
+	& > :first-child {
+        opacity: 1;
+		font-weight: 800;
+	}
+	& > :last-child {
+        display: flex;
+        align-items: stretch;
+        gap: 1.5rem;
+
+	}
 }

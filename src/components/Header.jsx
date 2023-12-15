@@ -6,15 +6,15 @@ const Header = () => {
 		<header className="Header">
 			<nav>
 				<Link to="/">JeffM .</Link>
-				<Link to="/projects">Projects</Link>
 				<div>
+					<Link to="/projects">Projects</Link>
 					<a href="https://linkedin.com/in/jeffmancilla">
 						{' '}
 						<svg
 							aria-label="LinkedIn"
 							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
+							width="22"
+							height="22"
 							viewBox="0 0 32 32"
 						>
 							<path
@@ -28,8 +28,8 @@ const Header = () => {
 						<svg
 							aria-label="GitHub"
 							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
+							width="22"
+							height="22"
 							viewBox="0 0 32 32"
 						>
 							<path

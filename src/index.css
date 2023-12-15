@@ -1,5 +1,3 @@
-
-
 :root {
 	--dark: hsl(0, 0%, 12%);
 	--light: hsl(0, 0%, 97%);
@@ -22,7 +20,9 @@
 html {
 	color: var(--text);
 	background: var(--background);
-	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;	font-weight: normal;
+	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro,
+		sans-serif;
+	font-weight: normal;
 	margin: 0;
 	padding: 0;
 }
@@ -42,18 +42,22 @@ h2 {
 	font-size: 2rem;
 }
 
+a {
+	text-decoration: none;
+}
+
 button {
-	--btn-color: var(--text); 
+	--btn-color: var(--text);
 	display: flex;
 	place-items: center;
-	gap: .5rem;
-	font-size: .8rem;
+	gap: 0.5rem;
+	font-size: 0.8rem;
 	font-weight: 600;
 	color: var(--btn-color);
 	background-color: color-mix(in srgb, currentColor 5%, transparent);
 	border: 1px solid currentColor;
 	border-radius: 0.25rem;
-	box-shadow: 0 0 0.1rem 0.1rem color-mix(in srgb, black 10%, transparent);
+	box-shadow: 0 0 3px 1px color-mix(in srgb, black 10%, transparent);
 	opacity: 1;
 	padding: 0.5rem;
 	&.primary {
@@ -64,8 +68,4 @@ button {
 	&:hover {
 		box-shadow: 0 0 1px 2px color-mix(in srgb, var(--text) 33%, transparent);
 	}
-}
-
-a {
-	text-decoration: none;
 }
